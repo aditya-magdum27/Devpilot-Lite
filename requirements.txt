@@ -1,5 +1,0 @@
-numpy
-streamlit
-langgraph
-langgraph-checkpoint-sqlite
-langchain-core
