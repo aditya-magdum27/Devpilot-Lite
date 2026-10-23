@@ -1,0 +1,8 @@
+# Tested with Python 3.12 on the versions below. Ranges allow newer compatible releases.
+streamlit>=1.66,<2
+langgraph>=1.2,<2
+langchain-core>=1.6,<2
+langchain-openai>=1.7,<2      # used when LLM_PROVIDER=openai (also OpenAI-compatible APIs via LLM_BASE_URL)
+langchain-anthropic>=1.7,<2   # used when LLM_PROVIDER=anthropic (remove if you only use OpenAI)
+python-dotenv>=1.2,<2
+pytest>=9.0,<10
